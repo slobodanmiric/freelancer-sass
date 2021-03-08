@@ -112,6 +112,8 @@ main
 .main {
     flex: 2;
     padding: 40px;
+    overflow: scroll;
+    height: 100vh;
     .about {
         button {
             @include btn;
